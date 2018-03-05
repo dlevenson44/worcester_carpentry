@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
+
+import Decks from './components/Decks'
+// import Footer from './components/Footer'
+import Floors from './components/Floors'
+import Gutters from './components/Gutters'
+// import Header from './components/Header'
+// import Home from './components/Home'
+import KitchenBath from './components/KitchenBath'
+// import Nav from './components/Nav'
+import Remodeling from './components/Remodeling'
+import Restoration from './components/Restoration'
+import Roofing from './components/Roofing'
+import Siding from './components/Siding'
+import WindowsDoors from './components/WindowsDoors'
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+        <div className="App">
+          <h1>Hello world</h1>
+        </div>
+      </Router>
     );
   }
 }
