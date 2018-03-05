@@ -9,7 +9,7 @@ import Gutters from './components/Gutters'
 // import Header from './components/Header'
 // import Home from './components/Home'
 import KitchenBath from './components/KitchenBath'
-// import Nav from './components/Nav'
+import Nav from './components/Nav'
 import Remodeling from './components/Remodeling'
 import Restoration from './components/Restoration'
 import Roofing from './components/Roofing'
@@ -23,6 +23,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <h1>Hello world</h1>
+          <Nav />
           <Route path='/decks' component={Decks}/>
           <Route path='/floors' component={Floors}/>
           <Route path='/gutters' component={Gutters}/>
