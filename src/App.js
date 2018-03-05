@@ -23,6 +23,15 @@ class App extends Component {
       <Router>
         <div className="App">
           <h1>Hello world</h1>
+          <Route path='/decks' component={Decks}/>
+          <Route path='/floors' component={Floors}/>
+          <Route path='/gutters' component={Gutters}/>
+          <Route path='/kitchenbath' component={KitchenBath}/>
+          <Route path='/remodeling' component={Remodeling}/>
+          <Route path='/restoration' component={Restoration}/>
+          <Route path='/roofing' component={Roofing}/>
+          <Route path='/siding' component={Siding}/>
+          <Route path='/windowsdoors' component={WindowsDoors}/>
         </div>
       </Router>
     );
