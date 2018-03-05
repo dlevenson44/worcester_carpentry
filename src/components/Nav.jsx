@@ -55,6 +55,25 @@ const Nav = () => {
 
                 </ul>
             </div>
+            <div className="hidden-md-up">
+                <div className="dropdown">
+                <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Menu
+				</button>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <Link to="/" className="nav link">Home</Link>
+                    <Link to="/decks" className="nav link">Decks</Link>
+                    <Link to="/floors" className="nav link">Floors</Link>
+                    <Link to="/gutters" className="nav link">Gutters</Link>
+                    <Link to="/remodeling" className="nav link">Remodeling</Link>
+                    <Link to="/restoration" className="nav link">Restoration</Link>
+                    <Link to="/restoration" className="nav link">Restoration</Link>
+                    <Link to="/roofing" className="nav link">Roofing</Link>
+                    <Link to="/siding" className="nav link">Siding</Link>
+                    <Link to="/windowsdoors" className="nav link">Windows & Doors</Link>
+                </div>
+                </div>
+            </div>
         </div>
     )
 }
