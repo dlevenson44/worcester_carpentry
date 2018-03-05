@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// Link below is for kitchen and bath if client wants section readded
+// <li className="nav-item" id="nav-li">                    
+// <Link to="/kitchenbath" className="nav link">Kitchen & Bath</Link>
+// </li>   
+
 const Nav = () => {
     return(
         <div>
@@ -22,9 +27,7 @@ const Nav = () => {
                     <Link to="/gutters" className="nav link">Gutters</Link>
                 </li>
 
-                <li className="nav-item" id="nav-li">                    
-                    <Link to="/kitchenbath" className="nav link">Kitchen & Bath</Link>
-                </li>                
+             
 
                 <li className="nav-item" id="nav-li">                    
                     <Link to="/remodeling" className="nav link">Remodeling</Link>

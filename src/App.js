@@ -8,7 +8,7 @@ import Floors from './components/Floors'
 import Gutters from './components/Gutters'
 // import Header from './components/Header'
 // import Home from './components/Home'
-import KitchenBath from './components/KitchenBath'
+// import KitchenBath from './components/KitchenBath'
 import Nav from './components/Nav'
 import Remodeling from './components/Remodeling'
 import Restoration from './components/Restoration'
@@ -16,6 +16,8 @@ import Roofing from './components/Roofing'
 import Siding from './components/Siding'
 import WindowsDoors from './components/WindowsDoors'
 
+// Route below is removed until client wants it readded
+// <Route path='/kitchenbath' component={KitchenBath}/>
 
 class App extends Component {
   render() {
@@ -27,7 +29,7 @@ class App extends Component {
           <Route path='/decks' component={Decks}/>
           <Route path='/floors' component={Floors}/>
           <Route path='/gutters' component={Gutters}/>
-          <Route path='/kitchenbath' component={KitchenBath}/>
+          
           <Route path='/remodeling' component={Remodeling}/>
           <Route path='/restoration' component={Restoration}/>
           <Route path='/roofing' component={Roofing}/>
