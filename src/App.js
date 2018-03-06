@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="container">
           <Header />
           <Nav />
           <Route path='/contact' component={Contact} />
