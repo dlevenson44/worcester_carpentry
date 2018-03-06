@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
     return(
         <div>
-            <div className="hidden-sm-down" id="nav-container">
+            <div className="hidden-md-down" id="nav-container">
                 <ul className="nav justify-content-flex-start">
                 <li className="nav-item" id="nav-li">                    
                     <Link to="/" className="nav link">Home</Link>
@@ -59,7 +59,7 @@ const Nav = () => {
 
                 </ul>
             </div>
-            <div className="hidden-md-up">
+            <div className="hidden-lg-up">
                 <div className="dropdown">
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Menu

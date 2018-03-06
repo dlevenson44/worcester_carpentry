@@ -34,8 +34,8 @@ ul {
   width: 100%;
 }
 
-.header-subcont {
-  /* align-self: flex-end; */
+.nav-item {
+  margin: 10px
 }
 
 @keyframes App-logo-spin {
