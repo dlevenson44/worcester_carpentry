@@ -6,7 +6,7 @@ import Decks from './components/Decks'
 // import Footer from './components/Footer'
 import Floors from './components/Floors'
 import Gutters from './components/Gutters'
-// import Header from './components/Header'
+import Header from './components/Header'
 // import Home from './components/Home'
 // import KitchenBath from './components/KitchenBath'
 import Nav from './components/Nav'
@@ -24,12 +24,11 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <h1>Hello world</h1>
+          <Header />
           <Nav />
           <Route path='/decks' component={Decks}/>
           <Route path='/floors' component={Floors}/>
-          <Route path='/gutters' component={Gutters}/>
-          
+          <Route path='/gutters' component={Gutters}/>          
           <Route path='/remodeling' component={Remodeling}/>
           <Route path='/restoration' component={Restoration}/>
           <Route path='/roofing' component={Roofing}/>
