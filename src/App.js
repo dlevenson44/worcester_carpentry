@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
 
+import Contact from './components/Contact'
 import Decks from './components/Decks'
-// import Footer from './components/Footer'
 import Floors from './components/Floors'
 import Gutters from './components/Gutters'
 import Header from './components/Header'
@@ -26,6 +26,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Nav />
+          <Route path='/contact' component={Contact} />
           <Route path='/decks' component={Decks}/>
           <Route path='/floors' component={Floors}/>
           <Route path='/gutters' component={Gutters}/>          
