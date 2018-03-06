@@ -1,4 +1,5 @@
 import React from 'react'
+import Photo from './imgs/decksporches/decksporches4.jpg'
 
 // use 1 image as banner, 3 for side by side slideshow
 // banner-- decksporches4
@@ -7,6 +8,7 @@ import React from 'react'
 const Decks = () => {
     return(
         <div>
+            <img src={Photo} className="banner-img"/>
             <div className="info">
             <h1>Decking</h1>
             <p>We build and re-surface decks and porches.</p>
