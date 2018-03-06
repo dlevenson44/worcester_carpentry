@@ -34,6 +34,22 @@ ul {
   width: 100%;
 }
 
+.flooring-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flooring-subcont {
+  margin-top: 30px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  
+}
+
 .nav-item {
   margin: 10px
 }
@@ -41,6 +57,12 @@ ul {
 .banner-img {
   height: 200px;
   width: 100%;
+}
+
+#standalone {
+  height: 300px;
+  width: 300px;
+  margin-left: 25px;
 }
 
 @keyframes App-logo-spin {
