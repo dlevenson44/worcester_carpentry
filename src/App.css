@@ -36,6 +36,13 @@
   justify-content: center;
 }
 
+.decks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 75px;
+}
+
 .flooring-subcont {
   margin-top: 30px;
   display: flex;
@@ -45,12 +52,21 @@
 .sub {
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
 }
 
 #floor-sub1 {
   padding-top: 50px;
   padding-right: 50px;
+}
+
+.deck-header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.deck-info {
+  width: 400px;
 }
 
 .nav-item {
