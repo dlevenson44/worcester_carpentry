@@ -10,7 +10,7 @@ const Nav = () => {
     return(
         <div>
             <div className="hidden-sm-down" id="nav-container">
-                <ul className="nav justify-content-center">
+                <ul className="nav justify-content-flex-start">
                 <li className="nav-item" id="nav-li">                    
                     <Link to="/" className="nav link">Home</Link>
                 </li>
