@@ -53,6 +53,10 @@ const Nav = () => {
                     <Link to="/windowsdoors" className="nav link">Windows & Doors</Link>
                 </li>
 
+                <li className="nav-item" id="nav-li">
+                    <Link to="/contact" className="nav link">Contact Us</Link>
+                </li>
+
                 </ul>
             </div>
             <div className="hidden-md-up">
@@ -71,6 +75,7 @@ const Nav = () => {
                     <Link to="/roofing" className="nav link">Roofing</Link>
                     <Link to="/siding" className="nav link">Siding</Link>
                     <Link to="/windowsdoors" className="nav link">Windows & Doors</Link>
+                    <Link to="/contact" className="nav link">Contact</Link>
                 </div>
                 </div>
             </div>
