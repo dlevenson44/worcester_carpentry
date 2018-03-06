@@ -1,5 +1,8 @@
 import React from 'react'
 
+// 16, 9, 11 for slideshow
+// 5 for banner
+
 const Siding = () => {
     return(
         <div>

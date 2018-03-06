@@ -1,5 +1,7 @@
 import React from 'react'
 
+// create slideshow with resto1 and 2
+
 const Restoration = () => {
     return(
         <div>
