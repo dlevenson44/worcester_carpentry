@@ -64,6 +64,25 @@
   justify-content: center;
 }
 
+.resto-container {
+  margin-top: 50px;
+}
+
+.resto-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.resto-info {
+  margin-top: 65px;
+  width: 400px;
+}
+
+.resto-header {
+  text-align: center;
+}
+
 .sub {
   display: flex;
   flex-direction: row;
