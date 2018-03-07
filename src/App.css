@@ -107,6 +107,20 @@
   margin-top: 75px;
 }
 
+.windows-container {
+  margin-top: 50px;
+}
+
+.windows-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.windows-info {
+  width: 400px;
+}
+
 .siding-container {
   margin-top: 45px;
 }

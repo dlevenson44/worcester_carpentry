@@ -1,15 +1,16 @@
 import React from 'react'
-
-// 3 for the banner
-// 4, 2, 1 for slideshow
+import Slideshow1 from './imgs/windowsdoors/windowsdoors2.jpg'
+import Slideshow2 from './imgs/windowsdoors/windowsdoors4.jpg'
+import Slideshow3 from './imgs/windowsdoors/windowsdoors1.jpg'
 
 const WindowsDoors = () => {
     return(
-        <div>
-            <h1>Windows and Doors</h1>
-            <p>We install replacement windows and new contruction windows depending on the specific application.  We work with many manufacturers of windows, as well as many different styles of windows.</p>
-            <div className="info">
-            <p>We have experience in installing doors of all types and styles also.  Doors we install include:</p>
+        <div className="windows-container">
+            <h4>We install replacement windows and new contruction windows depending on the specific application.</h4>
+            <h4>We work with many manufacturers of windows, as well as many different styles of windows.</h4>
+            <div className="windows-subcont">
+            <div className="windows-info">
+            <p>We have experience in installing doors of all types and styles also.  Doors we install include:
             <ul>
             	<li>Entry Doors</li>
             	<li>Entry Doors with Sidelights</li>
@@ -17,8 +18,28 @@ const WindowsDoors = () => {
             	<li>French Doors</li>
             	<li>All Types of Interior Doors</li>
             </ul>
+            </p>
             </div>
-            <div className="img">
+            <div className="row" id="flooring-slideshow">
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>            
+            </ol>
+            <div className="carousel-inner" role="listbox" id="floor-slideshow">
+                <div className="carousel-item active">
+                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="floor-img" />
+                </div>
+                <div className="carousel-item">
+                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="floor-img" />
+                </div>
+                <div className="carousel-item">
+                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="floor-img" />
+                </div>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
     )
