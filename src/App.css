@@ -89,6 +89,10 @@
   justify-content: center;
 }
 
+.siding-header {
+  text-align: center;
+}
+
 .roofing-header {
   text-align: center;
 }
@@ -101,6 +105,20 @@
   display: flex;
   justify-content: center;
   margin-top: 75px;
+}
+
+.siding-container {
+  margin-top: 45px;
+}
+
+.siding-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.siding-info {
+  width: 400px;
 }
 
 .roofing-info {
