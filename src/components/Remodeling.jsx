@@ -1,15 +1,15 @@
 import React from 'react'
-
-// 7 as banner
-// 1,4,9 as slideshow
-
-// 11 for home slideshow
+import Slideshow1 from './imgs/remodel/remodel7.jpg'
+import Slideshow2 from './imgs/remodel/remodel1.jpg'
+import Slideshow3 from './imgs/remodel/remodel4.jpg'
+import Slideshow4 from './imgs/remodel/remodel9.jpg'
 
 const Remodeling = () => {
     return(
-        <div>
-            <h1>Remodeling</h1>
-            <div className="info">
+        <div className="remodel">
+            <h4>We work with our customers to help find the most practical solutions to their remodeling projects.</h4>
+            <div className="remodel-container">
+            <div className="remodel-info">
             <p>We are experienced in all phases of home remodeling, including:</p>
             <ul>
                 <li>Interior</li>
@@ -19,9 +19,31 @@ const Remodeling = () => {
                 <li>Bathrooms</li>
             </ul>
             </div>
-            <div className="img">
+            <div className="row" id="flooring-slideshow">
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> 
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>            
+            </ol>
+            <div className="carousel-inner" role="listbox" id="floor-slideshow">
+                <div className="carousel-item active">
+                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="floor-img" />
+                </div>
+                <div className="carousel-item">
+                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="floor-img" />
+                </div>
+                <div className="carousel-item">
+                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="floor-img" />
+                </div>
+                <div className="carousel-item">
+                    <img className="d-block img-fluid" src={Slideshow4} alt="Fourth slide" id="floor-img" />
+                </div>                
             </div>
-            <p>We work with our customers to help find the most practical solutions to their remodeling projects.</p>
+            </div>
+            </div>
+            </div>           
         </div>
     )
 }
