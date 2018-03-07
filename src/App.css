@@ -89,6 +89,25 @@
   justify-content: center;
 }
 
+.roofing-header {
+  text-align: center;
+}
+
+.roofing-container {
+  margin-top: 40px;
+}
+
+.roofing-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.roofing-info {
+  width: 400px;
+  margin-top: 45px;
+}
+
 #floor-sub1 {
   padding-top: 50px;
   padding-right: 50px;
