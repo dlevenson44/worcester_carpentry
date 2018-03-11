@@ -5,7 +5,7 @@ import Slideshow3 from './imgs/windowsdoors/windowsdoors1.jpg'
 
 const WindowsDoors = () => {
     return(
-        <div className="windows-container">
+        <div className="veneer" id="windows1">
             <h4>We install replacement windows and new contruction windows depending on the specific application.</h4>
             <h4>We work with many manufacturers of windows, as well as many different styles of windows.</h4>
             <div className="content-subcont" id="windows">

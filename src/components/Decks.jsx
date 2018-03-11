@@ -12,7 +12,7 @@ import Slideshow3 from './imgs/decksporches/decksporches8.jpg'
 
 const Decks = () => {
     return(
-        <div>
+        <div className="veneer">
             <h1 className="deck-header">Decks and Porches</h1>
         <div className="content-container-r" id="decks">        
             <div className="deck-info">

@@ -5,7 +5,7 @@ import Slideshow3 from './imgs/roofing/roofing5.JPG'
 
 const Roofing = () => {
     return(
-        <div className="roofing-container">
+        <div className="veneer" id="roofing1">
             <h1 className="roofing-header">Roofing</h1>
             <div className="content-subcont" id="roofing">
             <div className="roofing-info">

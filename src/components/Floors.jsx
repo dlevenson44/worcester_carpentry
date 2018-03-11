@@ -6,7 +6,7 @@ import Standalone from './imgs/flooring/flooring4.jpg'
 
 const Floors = () => {
     return(
-        <div className="floors">           
+        <div className="veneer">           
             <div className="content-container-c"> 
             <div className="flooring-subcont">
             <div className="info">

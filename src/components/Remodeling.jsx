@@ -6,7 +6,7 @@ import Slideshow4 from './imgs/remodel/remodel9.jpg'
 
 const Remodeling = () => {
     return(
-        <div className="remodel">
+        <div className="veneer" id="remodel1">
             <h4>We work with our customers to help find the most practical solutions to their remodeling projects.</h4>
             <div className="content-container-r" id="remodel">
             <div className="remodel-info">

@@ -4,7 +4,7 @@ import Slideshow2 from './imgs/restoration/restoration_2.JPG'
 
 const Restoration = () => {
     return(
-        <div className="resto-container">
+        <div className="veneer" id="resto1">
             <h1 className="resto-header">Restoration Work</h1>
             <div className="content-subcont" id="resto">
             <div className="resto-info">

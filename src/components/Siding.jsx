@@ -9,7 +9,7 @@ import Slideshow3 from './imgs/siding/siding11.JPG'
 
 const Siding = () => {
     return(
-        <div className="siding-container">
+        <div className="veneer" id="siding1">
             <h1 className="siding-header">Siding</h1>
             <div className="content-subcont" id="siding">
             <div className="siding-info">
