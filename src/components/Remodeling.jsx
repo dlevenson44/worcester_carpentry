@@ -8,7 +8,7 @@ const Remodeling = () => {
     return(
         <div className="remodel">
             <h4>We work with our customers to help find the most practical solutions to their remodeling projects.</h4>
-            <div className="remodel-container">
+            <div className="content-container-r" id="remodel">
             <div className="remodel-info">
             <p>We are experienced in all phases of home remodeling, including:</p>
             <ul>

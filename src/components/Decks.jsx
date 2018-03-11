@@ -14,7 +14,7 @@ const Decks = () => {
     return(
         <div>
             <h1 className="deck-header">Decks and Porches</h1>
-        <div className="decks-container">        
+        <div className="content-container-r" id="decks">        
             <div className="deck-info">
             <p>We build and re-surface decks and porches.</p>
             <p>Decks and porches can be as elaborate or as economical as needed.</p>

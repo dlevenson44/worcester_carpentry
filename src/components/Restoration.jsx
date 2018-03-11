@@ -6,7 +6,7 @@ const Restoration = () => {
     return(
         <div className="resto-container">
             <h1 className="resto-header">Restoration Work</h1>
-            <div className="resto-subcont">
+            <div className="content-subcont" id="resto">
             <div className="resto-info">
             <p>Worcester County Carpentry work with historic and craftsman style buildings to restore, or recreate, architectual details original to the home.  We also recreate certain details custom to a customer's vision.</p>
             </div>

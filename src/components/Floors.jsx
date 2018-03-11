@@ -7,11 +7,11 @@ import Standalone from './imgs/flooring/flooring4.jpg'
 const Floors = () => {
     return(
         <div className="floors">           
-            <div className="flooring-container"> 
+            <div className="content-container-c"> 
             <div className="flooring-subcont">
             <div className="info">
             <h3>We at Worcester County Carpentry offer a wide range of flooring options.</h3>
-            <div className="sub">
+            <div className="content-container-r">
             <p>We install many flooring choices.<br/>  Our tile options are not limited to floors only, as we also tile:
             <ul>
                 <li>Walls</li>
@@ -29,7 +29,7 @@ const Floors = () => {
             <div className="flooring-subcont">      
             <div className="info">
             <h3>We install many types of wood flooring options.</h3>
-            <div className="sub">
+            <div className="content-container-r">
             <p> They include but aren't limited to:
             <ul id="floor-sub1">
             	<li>Prefinished Tongue and Groove</li>
