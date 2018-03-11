@@ -113,10 +113,6 @@ body {
   margin-top: 90px;
 }
 
-#roofing1 {
-  margin-top: 40px;
-}
-
 #windows1 {
   margin-top: 50px;
 }
@@ -313,9 +309,22 @@ body {
   list-style-type: disc;
 }
 
+.roofing-para {
+  color: #2e5590;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
 #decks-img {
   height: 300px;
   width: 300px;
+}
+
+#roof-img {
+  height: 400px;
+  width: 400px;
 }
 
 #floor-img {
