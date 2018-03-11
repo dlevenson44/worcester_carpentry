@@ -7,7 +7,7 @@ import Standalone from './imgs/flooring/flooring4.jpg'
 const Floors = () => {
     return(
         <div className="veneer">
-            <h3 className="floor-h3">We at Worcester County Carpentry offer a wide range of flooring options.</h3>
+            <h3 className="content-h3">We at Worcester County Carpentry offer a wide range of flooring options.</h3>
             <div className="content-container-c" id="floors1"> 
             <div className="info">            
             <div className="content-container-r">
@@ -24,7 +24,7 @@ const Floors = () => {
             </div>
             </div>
             </div>
-            <h3 className="floor-h3">We install many types of wood flooring options.</h3>
+            <h3 className="content-h3">We install many types of wood flooring options.</h3>
             <div className="content-subcont" id="floors">      
             <div className="info">            
             <div className="content-container-r">

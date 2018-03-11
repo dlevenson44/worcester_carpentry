@@ -113,10 +113,6 @@ body {
   margin-top: 90px;
 }
 
-#remodel1 {
-  margin-top: 65px;
-}
-
 #resto1 {
   margin-top: 50px;
 }
@@ -188,6 +184,7 @@ body {
 }
 
 .remodel-info {
+  margin-top: 85px;
   width: 250px;
 }
 
@@ -260,7 +257,6 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
   font-weight: bolder;  
-  margin-top: 30px;
   padding-top: 30px;
   text-align: center;    
 }
@@ -277,12 +273,20 @@ body {
   width: 400px;
 }
 
-.floor-h3 {
+.content-h3 {
   color: #2e5590;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   text-align: center;
   padding-top: 20px;
+}
+
+.remodel-h4 {
+  color: #2e5590;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px; 
 }
 
 .floors-para {
@@ -292,8 +296,21 @@ body {
   line-height: 20px;
 }
 
+.remodel-para {
+  color: #2e5590;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
 #floor-slideshow {
   margin-left: 50px;
+}
+
+.remodel-ul {
+  color: #2e5590;
+  list-style-type: disc;
 }
 
 #decks-img {
@@ -304,6 +321,11 @@ body {
 #floor-img {
   height: 250px;
   width: 250px;
+}
+
+#remodel-img {
+  height: 400px;
+  width: 400px;
 }
 
 #standalone {

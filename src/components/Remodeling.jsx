@@ -6,17 +6,17 @@ import Slideshow4 from './imgs/remodel/remodel9.jpg'
 
 const Remodeling = () => {
     return(
-        <div className="veneer" id="remodel1">
-            <h4>We work with our customers to help find the most practical solutions to their remodeling projects.</h4>
+        <div className="veneer">
+            <h3 className="content-h3">We work with our customers to help find the most practical solutions to their remodeling projects.</h3>
             <div className="content-container-r" id="remodel">
             <div className="remodel-info">
-            <p>We are experienced in all phases of home remodeling, including:</p>
-            <ul>
-                <li>Interior</li>
-                <li>Exterior</li>
-                <li>Basements</li>
-                <li>Kitchens</li>
-                <li>Bathrooms</li>
+            <p className="remodel-para">We are experienced in all phases of home remodeling, including:</p>
+            <ul className="remodel-ul">
+                <li className="remodel-para">Interior</li>
+                <li className="remodel-para">Exterior</li>
+                <li className="remodel-para">Basements</li>
+                <li className="remodel-para">Kitchens</li>
+                <li className="remodel-para">Bathrooms</li>
             </ul>
             </div>
             <div className="row" id="flooring-slideshow">
@@ -29,16 +29,16 @@ const Remodeling = () => {
             </ol>
             <div className="carousel-inner" role="listbox" id="floor-slideshow">
                 <div className="carousel-item active">
-                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="remodel-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="remodel-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="remodel-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow4} alt="Fourth slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow4} alt="Fourth slide" id="remodel-img" />
                 </div>                
             </div>
             </div>
