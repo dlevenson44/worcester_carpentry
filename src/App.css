@@ -44,6 +44,30 @@ body {
   list-style-type: none;
 }
 
+#tel {
+  color: #E8232F
+}
+
+#tel:hover {
+  color: #E8232F;
+}
+
+#tel:visited {
+  color: #E8232F
+}
+
+#mason {
+  color: #E8232F
+}
+
+#mason:hover {
+  color: #E8232F;
+}
+
+#mason:visited {
+  color: #E8232F
+}
+
 .flooring-container {
   display: flex;
   flex-direction: column;
