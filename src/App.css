@@ -6,11 +6,6 @@ body {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -32,6 +27,46 @@ body {
   justify-content: space-between;
   margin-top: 15px;
   width: 100%;
+}
+
+#nav-container {  
+  width: 100%;
+}
+
+.decks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.flooring-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.remodel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.resto-container {
+  margin-top: 50px;
+}
+
+.roofing-container {
+  margin-top: 40px;
+}
+
+.windows-container {
+  margin-top: 50px;
+}
+
+.siding-container {
+  margin-top: 45px;
 }
 
 .header-img {
@@ -68,10 +103,6 @@ body {
   color: #E8232F
 }
 
-#nav-container {  
-  width: 100%;
-}
-
 .nav-item {
   height: 40px;
   margin: auto;
@@ -92,28 +123,8 @@ body {
   color: #FDFEFF;
 }
 
-.flooring-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.decks-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 75px;
-}
-
 .remodel {
   margin-top: 65px;
-}
-
-.remodel-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 90px;
 }
 
 .remodel-info {
@@ -126,14 +137,33 @@ body {
   justify-content: center;
 }
 
-.resto-container {
-  margin-top: 50px;
+.sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.roofing-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
 }
 
 .resto-subcont {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+}
+
+.windows-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+.siding-subcont {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
 }
 
 .resto-info {
@@ -145,12 +175,6 @@ body {
   text-align: center;
 }
 
-.sub {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .siding-header {
   text-align: center;
 }
@@ -159,38 +183,8 @@ body {
   text-align: center;
 }
 
-.roofing-container {
-  margin-top: 40px;
-}
-
-.roofing-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 75px;
-}
-
-.windows-container {
-  margin-top: 50px;
-}
-
-.windows-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 65px;
-}
-
 .windows-info {
   width: 400px;
-}
-
-.siding-container {
-  margin-top: 45px;
-}
-
-.siding-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 75px;
 }
 
 .siding-info {
@@ -216,11 +210,6 @@ body {
   width: 400px;
 }
 
-.banner-img {
-  height: 200px;
-  width: 100%;
-}
-
 #floor-slideshow {
   margin-left: 50px;
 }
@@ -234,9 +223,4 @@ body {
   height: 200px;
   width: 200px;
   margin-left: 25px;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
