@@ -9,11 +9,11 @@ import Slideshow3 from './imgs/siding/siding11.JPG'
 
 const Siding = () => {
     return(
-        <div className="veneer" id="siding1">
-            <h1 className="siding-header">Siding</h1>
+        <div className="veneer">
+            <h3 className="content-h3">Siding</h3>
             <div className="content-subcont" id="siding">
             <div className="siding-info">
-            <p>We work with a number of siding materials to maximize the beauty of your homes exterior.  Including but not limited to:
+            <p className="resto-para">We work with a number of siding materials to maximize the beauty of your homes exterior.  Including but not limited to:
             <ul>
             	<li>Vinyl Siding</li>
             	<li>Wood Clapboard</li>
@@ -31,13 +31,13 @@ const Siding = () => {
             </ol>
             <div className="carousel-inner" role="listbox" id="floor-slideshow">
                 <div className="carousel-item active">
-                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="roof-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="roof-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow3} alt="Third slide" id="roof-img" />
                 </div>
             </div>
             </div>
