@@ -70,6 +70,11 @@ body {
   font-size: large;
 }
 
+.veneer {
+  background-image: url(./components/imgs/light-veneer.png);
+  height: 70vh;
+}
+
 .header-container {
   background-color: #234974;
   display: flex;
@@ -103,19 +108,23 @@ body {
   margin-top: 90px;
 }
 
-.resto-container {
+#remodel1 {
+  margin-top: 65px;
+}
+
+#resto1 {
   margin-top: 50px;
 }
 
-.roofing-container {
+#roofing1 {
   margin-top: 40px;
 }
 
-.windows-container {
+#windows1 {
   margin-top: 50px;
 }
 
-.siding-container {
+#siding1 {
   margin-top: 45px;
 }
 
@@ -171,10 +180,6 @@ body {
 
 #nav-spec:visited {
   color: #FDFEFF;
-}
-
-.remodel {
-  margin-top: 65px;
 }
 
 .remodel-info {
