@@ -13,13 +13,13 @@ import Slideshow3 from './imgs/decksporches/decksporches8.jpg'
 const Decks = () => {
     return(
         <div className="veneer">
-            <h1 className="deck-header">Decks and Porches</h1>
+            <h1 className="deck-header">Deck and Porch Work</h1>
         <div className="content-container-r" id="decks">        
             <div className="deck-info">
-            <p>We build and re-surface decks and porches.</p>
-            <p>Decks and porches can be as elaborate or as economical as needed.</p>
-            <p>We work with both wood and composite materials, as well as a combination of the two.</p>
-            <p>All decks and porches we build or repair are built or brought back to code regulations.</p>
+            <p className="deck-para">We build and re-surface decks and porches.</p>
+            <p className="deck-para">Decks and porches can be as elaborate or as economical as needed.</p>
+            <p className="deck-para">We work with both wood and composite materials, as well as a combination of the two.</p>
+            <p className="deck-para">All decks and porches we build or repair are built or brought back to code regulations.</p>
             </div>
             <div className="row" id="flooring-slideshow">
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">

@@ -49,7 +49,7 @@ table {
 /* reset ends here */
 
 body {
-  background-color: #234974;
+  background-color: #254A72;
 }
 
 .App {
@@ -76,7 +76,7 @@ body {
 }
 
 .header-container {
-  background-color: #234974;
+  background-color: #254A72;
   display: flex;
   flex-direction: row;  
   justify-content: space-between;
@@ -247,8 +247,21 @@ body {
 }
 
 .deck-header {
+  color: #2e5590;
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: bolder;  
   margin-top: 30px;
-  text-align: center;
+  padding-top: 30px;
+  text-align: center;    
+}
+
+.deck-para {
+  color: #2e5590;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
 }
 
 .deck-info {
