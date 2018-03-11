@@ -181,48 +181,29 @@ body {
   width: 250px;
 }
 
-.flooring-subcont {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.sub {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.roofing-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 75px;
-}
-
 .content-subcont {
   display: flex;
   justify-content: center;
+}
+
+#floors {
+  margin-top: 30px;
+}
+
+#roofing {
+  margin-top: 75px;
 }
 
 #resto {
   margin-top: 40px;
 }
 
-.resto-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
+#siding {
+  margin-top: 75px;
 }
 
-.windows-subcont {
-  display: flex;
-  justify-content: center;
+#windows {
   margin-top: 65px;
-}
-.siding-subcont {
-  display: flex;
-  justify-content: center;
-  margin-top: 75px;
 }
 
 .resto-info {
