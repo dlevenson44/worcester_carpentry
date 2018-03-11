@@ -72,7 +72,7 @@ body {
 
 .veneer {
   background-image: url(./components/imgs/light-veneer.png);
-  height: 70vh;
+  height: 80vh;
 }
 
 .header-container {
@@ -200,6 +200,10 @@ body {
   margin-top: 30px;
 }
 
+#floors1 {
+  margin-top: 50px;
+}
+
 #roofing {
   margin-top: 75px;
 }
@@ -273,13 +277,32 @@ body {
   width: 400px;
 }
 
+.floor-h3 {
+  color: #2e5590;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.floors-para {
+  color: #2e5590;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  line-height: 20px;
+}
+
 #floor-slideshow {
   margin-left: 50px;
 }
 
-#floor-img {
+#decks-img {
   height: 300px;
   width: 300px;
+}
+
+#floor-img {
+  height: 250px;
+  width: 250px;
 }
 
 #standalone {

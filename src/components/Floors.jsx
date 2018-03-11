@@ -6,18 +6,17 @@ import Standalone from './imgs/flooring/flooring4.jpg'
 
 const Floors = () => {
     return(
-        <div className="veneer">           
-            <div className="content-container-c"> 
-            <div className="flooring-subcont">
-            <div className="info">
-            <h3>We at Worcester County Carpentry offer a wide range of flooring options.</h3>
+        <div className="veneer">
+            <h3 className="floor-h3">We at Worcester County Carpentry offer a wide range of flooring options.</h3>
+            <div className="content-container-c" id="floors1"> 
+            <div className="info">            
             <div className="content-container-r">
-            <p>We install many flooring choices.<br/>  Our tile options are not limited to floors only, as we also tile:
+            <p className="floors-para">We install many flooring choices.<br/>  Our tile options are not limited to floors only, as we also tile:
             <ul>
-                <li>Walls</li>
-                <li>Shower stalls</li>
-                <li>Backsplashes</li>
-                <li>Ceilings</li>
+                <li className="floors-para">Walls</li>
+                <li className="floors-para">Shower stalls</li>
+                <li className="floors-para">Backsplashes</li>
+                <li className="floors-para">Ceilings</li>
             </ul>
             </p>               
             <div className="img">
@@ -25,17 +24,16 @@ const Floors = () => {
             </div>
             </div>
             </div>
-            </div>
+            <h3 className="floor-h3">We install many types of wood flooring options.</h3>
             <div className="content-subcont" id="floors">      
-            <div className="info">
-            <h3>We install many types of wood flooring options.</h3>
+            <div className="info">            
             <div className="content-container-r">
-            <p> They include but aren't limited to:
+            <p className="floors-para"> They include but aren't limited to:
             <ul id="floor-sub1">
-            	<li>Prefinished Tongue and Groove</li>
-            	<li>Un-finished Tongue and Groove</li>
-            	<li>Laminate Plank Flooring</li>
-            	<li>Vinyl "Wood Look" Tile</li>
+            	<li className="floors-para">Prefinished Tongue and Groove</li>
+            	<li className="floors-para">Un-finished Tongue and Groove</li>
+            	<li className="floors-para">Laminate Plank Flooring</li>
+            	<li className="floors-para">Vinyl "Wood Look" Tile</li>
             </ul>
             </p>
             <div className="row" id="flooring-slideshow">
