@@ -113,10 +113,6 @@ body {
   margin-top: 90px;
 }
 
-#resto1 {
-  margin-top: 50px;
-}
-
 #roofing1 {
   margin-top: 40px;
 }
@@ -206,7 +202,7 @@ body {
 }
 
 #resto {
-  margin-top: 40px;
+  margin-top: 80px;  
 }
 
 #siding {
@@ -222,8 +218,12 @@ body {
   width: 400px;
 }
 
-.resto-header {
-  text-align: center;
+.resto-para {
+  color: #2e5590;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  line-height: 35px;
 }
 
 .siding-header {

@@ -4,11 +4,11 @@ import Slideshow2 from './imgs/restoration/restoration_2.JPG'
 
 const Restoration = () => {
     return(
-        <div className="veneer" id="resto1">
-            <h1 className="resto-header">Restoration Work</h1>
+        <div className="veneer">
+            <h3 className="content-h3">We Do Restoration Work</h3>
             <div className="content-subcont" id="resto">
             <div className="resto-info">
-            <p>Worcester County Carpentry work with historic and craftsman style buildings to restore, or recreate, architectual details original to the home.  We also recreate certain details custom to a customer's vision.</p>
+            <p className="resto-para">Worcester County Carpentry work with historic and craftsman style buildings to restore, or recreate, architectual details original to the home.  We also recreate certain details custom to a customer's vision.</p>
             </div>
             <div className="row" id="flooring-slideshow">
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -18,10 +18,10 @@ const Restoration = () => {
             </ol>
             <div className="carousel-inner" role="listbox" id="floor-slideshow">
                 <div className="carousel-item active">
-                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow1} alt="First slide" id="remodel-img" />
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="floor-img" />
+                    <img className="d-block img-fluid" src={Slideshow2} alt="Second slide" id="remodel-img" />
                 </div>
             </div>
             </div>
