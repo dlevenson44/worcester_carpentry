@@ -11,7 +11,7 @@ const Siding = () => {
     return(
         <div className="siding-container">
             <h1 className="siding-header">Siding</h1>
-            <div className="siding-subcont">
+            <div className="content-subcont" id="siding">
             <div className="siding-info">
             <p>We work with a number of siding materials to maximize the beauty of your homes exterior.  Including but not limited to:
             <ul>

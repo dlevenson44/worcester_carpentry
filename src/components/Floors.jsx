@@ -26,7 +26,7 @@ const Floors = () => {
             </div>
             </div>
             </div>
-            <div className="flooring-subcont">      
+            <div className="content-subcont" id="floors">      
             <div className="info">
             <h3>We install many types of wood flooring options.</h3>
             <div className="content-container-r">

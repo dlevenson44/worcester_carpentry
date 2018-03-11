@@ -8,7 +8,7 @@ const WindowsDoors = () => {
         <div className="windows-container">
             <h4>We install replacement windows and new contruction windows depending on the specific application.</h4>
             <h4>We work with many manufacturers of windows, as well as many different styles of windows.</h4>
-            <div className="windows-subcont">
+            <div className="content-subcont" id="windows">
             <div className="windows-info">
             <p>We have experience in installing doors of all types and styles also.  Doors we install include:
             <ul>

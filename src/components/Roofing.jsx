@@ -7,7 +7,7 @@ const Roofing = () => {
     return(
         <div className="roofing-container">
             <h1 className="roofing-header">Roofing</h1>
-            <div className="roofing-subcont">
+            <div className="content-subcont" id="roofing">
             <div className="roofing-info">
             <p>All phases of asphalt shingle roofing, including repairs and entire roof replacements.</p>
             <p>We pay special attention to all areas of your roof that require flashing or extra underlayment membrane.</p>
