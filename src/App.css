@@ -109,14 +109,17 @@ body {
   justify-content: center;
 }
 
-#home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #decks {
   margin-top: 75px;
+}
+
+#home {
+  margin: 30px;
+  margin-top: 75px;
+}
+
+#home1 {
+  padding-top: 60px;
 }
 
 #remodel {
@@ -226,6 +229,7 @@ body {
   font-size: 24px;
   font-weight: bolder;
   line-height: 35px;
+  width: 400px;
 }
 
 .siding-header {
