@@ -6,6 +6,14 @@ import { Link } from 'react-router-dom'
 // <Link to="/kitchenbath" className="nav link">Kitchen & Bath</Link>
 // </li>   
 
+// small menu gutteres
+//<Link to="/gutters" className="nav link">Gutters</Link>
+
+// large screen gutters
+// <li className="nav-item" id="nav-li">                    
+// <Link to="/gutters" className="nav link" id="nav-spec">Gutters</Link>
+// </li>
+
 const Nav = () => {
     return(
         <div>
@@ -23,9 +31,7 @@ const Nav = () => {
                     <Link to="/floors" className="nav link" id="nav-spec">Floors</Link>
                 </li>
 
-                <li className="nav-item" id="nav-li">                    
-                    <Link to="/gutters" className="nav link" id="nav-spec">Gutters</Link>
-                </li>
+
 
              
 
@@ -64,7 +70,7 @@ const Nav = () => {
                     <Link to="/" className="nav link">Home</Link>
                     <Link to="/decks" className="nav link">Decks</Link>
                     <Link to="/floors" className="nav link">Floors</Link>
-                    <Link to="/gutters" className="nav link">Gutters</Link>
+                    
                     <Link to="/remodeling" className="nav link">Remodeling</Link>
                     <Link to="/restoration" className="nav link">Restoration</Link>
                     <Link to="/restoration" className="nav link">Restoration</Link>
