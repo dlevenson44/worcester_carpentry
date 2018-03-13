@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
     return(
         <div className="veneer">
-            <h3 className="content-h3">Contact Us Today!</h3>
-            <p className="contact-info">If you are looking for expert carpentry work and maintenance, call Worcester County Carpentry today.</p>
+            <h3 className="content-h3">Contact Us For Expert Craftsmanshipya</h3>
+            <p className="contact-info">If you are looking for expert carpentry work and maintenance, call Worcester County Carpentry today!</p>
             <div className="content-container-r">
             <div className="content-container-c">
                 <h5 className="sub-header">Business Hours:</h5>
