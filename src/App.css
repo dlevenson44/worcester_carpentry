@@ -109,6 +109,12 @@ body {
   justify-content: center;
 }
 
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #decks {
   margin-top: 75px;
 }
