@@ -52,10 +52,6 @@ body {
   background-color: rgb(35, 73, 115);
 }
 
-/* body {
-  background-color: green;
-} */
-
 .App {
   text-align: center;
 }
@@ -387,4 +383,76 @@ body {
   color: #2e5590;
   font-size: 20px;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    background-color: white;
+  }
+
+  .veneer {
+    background-image: none;
+  }
+
+  .header-list {
+    margin-left: 5px;
+  }
+
+  .list-header {
+    color: #2E5590;
+  }
+
+  .dropdown {
+    margin-top: -77.5px;
+  }
+
+  .content-container-r {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #home1 {
+    margin-top: -50px;
+  }
+
+  #home {
+    margin: 0;
+    width: 400px;
+  }
+
+  #decks {
+    margin: 0;
+  }
+
+  #remodel {
+    margin-top: -50px;
+  }
+
+  #resto {
+    margin: 0;
+    margin-right: 5px;
+    width: 400px;
+  }
+
+  .content-subcont {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .remodel-ul {
+    list-style: none;
+  }
+
+  #roof-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #remodel-img {
+    margin-top: 5px;
+    height: 200px;
+    width: 200px;
+  }
+  
+
 }
