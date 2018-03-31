@@ -5,7 +5,7 @@ import Slideshow2 from './imgs/restoration/restoration_2.JPG'
 const Restoration = () => {
     return(
         <div className="veneer">
-            <h3 className="content-h3">We Do Restoration Work</h3>
+            <h3 className="content-h3">Our Restoration Work</h3>
             <div className="content-subcont" id="resto">
             <div className="resto-info">
             <p className="resto-para">Worcester County Carpentry work with historic and craftsman style buildings to restore, or recreate, architectual details original to the home.  We also recreate certain details custom to a customer's vision.</p>

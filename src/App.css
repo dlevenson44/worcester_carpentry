@@ -77,6 +77,7 @@ body {
 .veneer {
   background-image: url(./components/imgs/light-veneer.png);
   height: 80vh;
+  margin-top: 15px;
 }
 
 .header-container {
@@ -353,3 +354,37 @@ body {
   margin-left: 25px;
 }
 
+.contact-info {
+  color: #2E5590;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  letter-spacing: .5px;
+}
+
+#contact {
+  margin-top: 50px;
+}
+
+#contact1 {
+  width: 350px
+}
+
+#contact2 {
+  margin-top: 50px;
+}
+
+.sub-header {
+  font-family: 'Oswald', sans-serif;
+  color: #2e5590;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.sub-info {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #2e5590;
+  font-size: 20px;
+  line-height: 30px;
+}
